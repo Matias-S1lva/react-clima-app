@@ -17,7 +17,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "homepage": "https://Matias-S1lva.github.io/react-clima-app",
     "deploy": "gh-pages -d build"
+    
   },
   "eslintConfig": {
     "extends": [
