@@ -2,6 +2,7 @@
   "name": "clima-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Matias-S1lva.github.io/react-clima-app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",
@@ -13,13 +14,12 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "homepage": "https://Matias-S1lva.github.io/react-clima-app",
-    "deploy": "gh-pages -d build"
-    
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
